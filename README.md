@@ -44,3 +44,30 @@ This project was developed as part of the Front-End Development Internship at Ho
 ## Author
 
 Kovvuri Jashnavi
+# Calculator
+
+A simple calculator built using HTML, CSS, and JavaScript.
+
+## Features
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Clear Screen Functionality
+- Responsive Design
+- Interactive User Interface
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Internship Task
+
+Developed as part of the Front-End Development Internship at Horizon TechX.
+
+## Author
+
+Kovvuri Jashnavi
