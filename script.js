@@ -1,25 +1,18 @@
-let images = [
-    "image1.jpg",
-    "image2.jpg",
-    "image3.jpg",
-    "image4.jpg",
-    "image5.jpg"
-];
+const display = document.getElementById("display");
 
-let current = 0;
-
-function nextImage(){
-    current++;
-    if(current >= images.length){
-        current = 0;
-    }
-    document.getElementById("galleryImage").src = images[current];
+function appendValue(value){
+    display.value += value;
 }
 
-function prevImage(){
-    current--;
-    if(current < 0){
-        current = images.length - 1;
+function clearDisplay(){
+    display.value = "";
+}
+
+function calculate(){
+    try{
+        display.value = eval(display.value);
     }
-    document.getElementById("galleryImage").src = images[current];
+    catch{
+        display.value = "Error";
+    }
 }
